@@ -4,7 +4,7 @@ public class Main {
         System.out.println("Hello world!");
         Expressive s=new Expressive();
         String[] words={"hellom", "hi", "helo"};
-        s.expressiveWords("heeellooom",words);
-        
+        int e = s.expressiveWords("hhhhhheeelo",words);
+        System.out.println(e);
     }
 }
