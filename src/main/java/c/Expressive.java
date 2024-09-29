@@ -22,9 +22,7 @@ public class Expressive {
                 }
             }
             else t=false;
-            if(t){
-                ans++;
-            }
+            if(t) ans++;
         }
         return ans;
     }
